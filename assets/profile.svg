@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00BFFF" />
+      <stop offset="1" stop-color="#4ddcff" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="40" fill="#071a2b" />
+  <circle cx="300" cy="220" r="120" fill="url(#g)" opacity="0.95" />
+  <text x="300" y="250" text-anchor="middle" font-family="Montserrat, Inter, sans-serif" font-size="84" fill="#fff" font-weight="700">JR</text>
+  <rect x="80" y="360" width="440" height="120" rx="12" fill="#06101a" opacity="0.6" />
+  <text x="300" y="420" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#9fbfdc">Profile photo placeholder</text>
+</svg>

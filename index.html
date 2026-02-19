@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#071427" />
+  <meta name="description" content="Justin Rhoy Platon — Graduating Computer Engineering student and aspiring web developer. Frontend & backend, responsive design." />
+  <title>Justin Rhoy Platon — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" role="navigation" aria-label="Main navigation">
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <a href="#hero" class="logo">Justin Rhoy Platon</a>
+      <ul id="primary-navigation" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="#contact">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero" aria-label="Intro">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Hi, I’m Justin Rhoy Platon</h1>
+          <p class="subtitle">Graduating Computer Engineering Student | Aspiring Web Developer</p>
+          <p class="tagline">I build clean, responsive, and user-focused web applications with modern technologies.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#about">About Me</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/profile.jpg" alt="Profile placeholder for Justin Rhoy Platon" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about container" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="about-grid single">
+        <div class="about-copy">
+          <p class="lead">Graduating Computer Engineering student. Passionate about web development with a strong foundation in programming, networking, and software systems. Eager to grow in frontend and backend development.</p>
+          <ul class="about-list">
+            <li>Graduating Computer Engineering student</li>
+            <li>Passionate about web development</li>
+            <li>Strong foundation in programming, networking, and software systems</li>
+            <li>Eager to grow in frontend and backend development</li>
+          </ul>
+          <a class="btn btn-primary" href="assets/resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+              <h3><span class="skill-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M16 18l6-6-6-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 6l-6 6 6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>Web Development</h3>
+              <ul class="skill-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+          <div class="skill-card">
+            <h3><span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 2v20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5 7h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>Programming</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3><span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 2v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>Networking & Systems</h3>
+            <ul class="skill-list">
+              <li>OSPF</li>
+              <li>DHCP</li>
+              <li>NAT</li>
+              <li>ACL Configuration</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3><span class="skill-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M4 7h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4 12h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10 17h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>Tools & UI/UX</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Figma (placeholder)</li>
+              <li>Basic UI/UX Principles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services container" aria-labelledby="services-heading">
+      <h2 id="services-heading">Services</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <h3>Frontend Development</h3>
+          <p>Building responsive and modern user interfaces using HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="service-card">
+          <h3>Basic Backend Development</h3>
+          <p>Creating structured and functional web applications with server-side logic.</p>
+        </article>
+        <article class="service-card">
+          <h3>Responsive Website Design</h3>
+          <p>Mobile-first layouts and adaptive designs using modern CSS techniques.</p>
+        </article>
+        <article class="service-card">
+          <h3>Website Maintenance</h3>
+          <p>Improving performance, accessibility, and resolving UI issues.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>For inquiries or hiring, email <a href="mailto:justinrhoyplaton03@gmail.com">justinrhoyplaton03@gmail.com</a>.</p>
+          </div>
+
+          <aside class="contact-aside" aria-label="Contact details">
+            <!-- social icons moved to footer -->
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Justin Rhoy Platon</p>
+      <p>Built with passion for web development.</p>
+        <div class="footer-social" aria-hidden="false">
+          <ul class="social-icons">
+            <li>
+              <a href="https://github.com/justinrhoyyy" aria-label="GitHub" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 2C7.58 2 4 5.58 4 10c0 3.54 2.29 6.54 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.58.82-2.14-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.14 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38C17.71 16.54 20 13.54 20 10c0-4.42-3.58-8-8-8z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/justin-platon-98a931253/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="18" rx="2" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                  <path d="M6 9h3v8H6zM7.5 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM13 9h2.5v1.1c.4-.7 1.4-1.3 2.5-1.3 2.6 0 3.5 1.7 3.5 4.1V17h-3v-3.1c0-1-.02-2.3-1.4-2.3-1.4 0-1.6 1.1-1.6 2.2V17h-3V9z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:justinrhoyplaton03@gmail.com" aria-label="Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M3 7.5v9A2.5 2.5 0 005.5 19h13A2.5 2.5 0 0021 16.5v-9A2.5 2.5 0 0018.5 5h-13A2.5 2.5 0 003 7.5z" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                  <path d="M21 7.5l-9 6-9-6" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
